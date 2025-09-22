@@ -1,12 +1,16 @@
 Spring Boot REST API(Kotlin) for nutritive application. It includes JWT-based authentication (login/signup), features like creating a new product(if it doesn't exist), saving an existing product for future reference, endpoints for creating, updating, reading or deleting allergens, categories, tags, additives, countries, products and nutriments.
 Tech Stack
 Language / Framework: Kotlin / Spring Boot
+
 Database: PostgreSQL on AWS
 <img width="1596" height="748" alt="image" src="https://github.com/user-attachments/assets/bdc45620-bcd0-4fba-bab2-7ec59705bfb8" />
 
 Storage / Buckets: AWS S3 buckets for seed data
+
 Authentication: JWT
+
 Deployment: AWS (EC2)
+
 🔔 Firebase Cloud Messaging (FCM) Integration
 
 The project integrates with Firebase Cloud Messaging (FCM) to deliver real-time push notifications to client devices.
