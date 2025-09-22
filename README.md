@@ -1,5 +1,7 @@
 Spring Boot REST API(Kotlin) for nutritive application. It includes JWT-based authentication (login/signup), features like creating a new product(if it doesn't exist), saving an existing product for future reference, endpoints for creating, updating, reading or deleting allergens, categories, tags, additives, countries, products and nutriments.
+
 Tech Stack
+
 Language / Framework: Kotlin / Spring Boot
 
 Database: PostgreSQL on AWS
