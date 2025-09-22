@@ -1,4 +1,4 @@
-Spring Boot REST API(Kotlin) for nutritive application. It includes JWT-based authentication (login/signup), features like creating a new product(if it doesn't exist), saving an existing product for future reference, endpoints for creating, updating, reading or deleting allergens, categories, tags, additives, countries, products and nutriments.
+Spring Boot REST API(Kotlin) for nutritive application. It includes JWT-based authentication (login/signup), features like creating a new product(if it doesn't exist), saving an existing product for future reference, endpoints for creating, updating, reading or deleting allergens, categories, tags, additives, countries, products and nutriments. The user can also add allergens(the ones he is allergic to) in order to receive notification for warning if the scanned product contains that allergens while using the Android Mobile application.
 
 Tech Stack
 
