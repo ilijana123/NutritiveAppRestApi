@@ -75,3 +75,5 @@ Dependency Injection
 The project leverages Spring Boot’s built-in Dependency Injection (DI).
 All services, repositories, and controllers are managed as Spring beans.
 This allows easy mocking in tests and clean separation of concerns.
+
+You can test the REST API endpoints by importing the uploaded JSON collection to Postman.
