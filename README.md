@@ -5,13 +5,17 @@ Tech Stack
 Language / Framework: Kotlin / Spring Boot
 
 Database: PostgreSQL on AWS
+Endpoint for the db instance: nutritive-app.cnmymqma63x0.eu-north-1.rds.amazonaws.com
 <img width="1596" height="748" alt="image" src="https://github.com/user-attachments/assets/bdc45620-bcd0-4fba-bab2-7ec59705bfb8" />
 
-Storage / Buckets: AWS S3 buckets for seed data
+Storage / Buckets: AWS S3 buckets for seed data using dedicated endpoint for the data import.
 
 Authentication: JWT
 
 Deployment: AWS (EC2)
+Spring Boot aplication as a service.
+
+MapStruct is used to simplify the mapping process between Java bean types.
 
 🔔 Firebase Cloud Messaging (FCM) Integration
 
