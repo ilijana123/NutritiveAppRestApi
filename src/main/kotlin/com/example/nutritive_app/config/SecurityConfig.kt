@@ -41,15 +41,9 @@ class SecurityConfig(
             .csrf { it.disable() }
             .authorizeHttpRequests {
                 it
-                    //TODO
                     .requestMatchers("/api/users/create", "/api/users/login").permitAll()
                     .requestMatchers("/products/import").permitAll()
                     .requestMatchers("/error").permitAll()
-//                    .requestMatchers(HttpMethod.GET, "/products/**").permitAll()
-//                    .requestMatchers(HttpMethod.GET, "/categories/**").permitAll()
-//                    .requestMatchers(HttpMethod.GET, "/tags/**").permitAll()
-//                    .requestMatchers("/api/admin/**").hasRole("ADMIN")
-                    //.anyRequest().hasRole("USER")
                     .anyRequest().authenticated()
 
             }
@@ -58,7 +52,6 @@ class SecurityConfig(
             }
             .authenticationProvider(authenticationProvider())
             .addFilterBefore(jwtTokenFilter, UsernamePasswordAuthenticationFilter::class.java)
-
         return http.build()
     }
 }
