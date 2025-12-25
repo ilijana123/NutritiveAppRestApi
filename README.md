@@ -3,7 +3,7 @@
 - Creating a new product(if it doesn't exist)
 - Saving an existing product for future reference
 - Endpoints for creating, updating, reading or deleting allergens, categories, tags, additives, countries, products and nutriments
-- The user can also add allergens(the ones he is allergic to) in order to receive notification for warning if the scanned product contains that allergens while using the Android Mobile application.
+- The user can also add allergens(the ones he is allergic to) in order to receive notification for warning if the scanned product contains that allergens while using the [Android Mobile application](https://github.com/ilijana123/NutritiveAppAndroid).
 
 ## Tech Stack
 - Language / Framework: Kotlin / Spring Boot
