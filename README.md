@@ -28,6 +28,5 @@ Product Snickers contains: peanuts, lactose
 - Provides implementations for database access (PostgreSQL), messaging (FCM), and integrations with AWS services (S3, RDS).
 - Exposes REST API endpoints to clients (the Android application).
 - Dependency Injection
-> The project leverages Spring Boot’s built-in Dependency Injection (DI).
 
 ## [Postman Testing](https://ws3333-3182.postman.co/workspace/WS-Workspace~1c54f13a-b90a-410f-bfc1-876b5c0badd3/collection/41348129-316e3283-5150-4877-b85c-00094f221f8c?action=share&creator=41348129&active-environment=41348129-567601e0-9947-491f-97b3-4df49b209a7b)
